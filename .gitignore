@@ -1,0 +1,62 @@
+# IntelliJ IDEA
+
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code (если вдруг)
+
+.vscode/
+
+# Gradle
+
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven (на всякий)
+
+target/
+**/target/
+
+# Logs
+
+*.log
+logs/
+
+# OS / misc
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Env / secrets
+
+.env
+.env.*
+*.pem
+*.key
+
+# Docker
+
+**/docker-data/
+**/data/
+**/*.pid
+
+# Test / coverage
+
+**/bin/
+**/.classpath
+**/.project
+**/.settings/
+coverage/
+*.exec
+
+# Spring
+
+**/application-local.yml
+**/application-local.yaml
